@@ -1,5 +1,5 @@
 //
-let start = 1;
+let start = 0;
 
 //
 const end = 4_000_000; 
@@ -11,24 +11,24 @@ function setFibonacci(endOfSequence) {
     let array = [];
     let sum = 0;
     let current = 1;
-    let previous = 0;
+    let previous = 1;
     for (let i = 1; i < end; i++) {
-        sum = previous + current;
-        array.push(sum);
         previous = sum;
-        current++;
+        sum += current;
+        array.push(sum);
+        current = previous;
     }
     return array;
-}
+}   
 
 let array = setFibonacci(end);
 
 //
-while (start < end) {
-    if (array[start-1] % 2 == 0)
+while (array[start] < end) {
+    if (array[start] % 2 == 0)
         sum += start;
     start++;
 }
 
 console.log(sum);
-console.log(array);
+// console.log(array);

@@ -2,7 +2,7 @@
 let start = 0;
 
 //
-const end = 4_000_000; 
+const end = 4000000; 
 
 //
 let sum = 0;
@@ -11,7 +11,7 @@ function setFibonacci(endOfSequence) {
     let array = [];
     let sum = 0;
     let current = 1;
-    let previous = 1;
+    let previous;
     for (let i = 1; i < end; i++) {
         previous = sum;
         sum += current;
@@ -31,4 +31,4 @@ while (array[start] < end) {
 }
 
 console.log(sum);
-// console.log(array);
+console.log(array);

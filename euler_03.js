@@ -1,6 +1,8 @@
 // Problem 3: Largest Prime Factor
 // The prime factors of 13195 are 5, 7, 13, and 29. What is the largest prime factor of a given number?
 
+// I strongly suggest you take a look at this YouTube video to understanding the "Sieve of Eratosthenes"
+// https://www.youtube.com/watch?v=V08g_lkKj6Q
 function sieveOfEratosthenes(limit) {
     const sieve = new Array(limit + 1).fill(true);
     sieve[0] = sieve[1] = false;

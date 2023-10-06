@@ -36,6 +36,7 @@ By considering the terms in the Fibonacci sequence whose values do not exceed fo
 
 ## Problem 3
 The prime factors of $13195$ are $5, 7, 13$ and $29$.
-What is the largest prime factor of the number $600851475143$?
+What is the largest prime factor of the number $600851475143$?  
+Golden Hint: Whatch this video out: [Sive of Eratosthenes](https://www.youtube.com/watch?v=V08g_lkKj6Q)
 
 "Give it a shot yourself, and if you get stuck, don't worry; here is the [solution](euler_03.js)."

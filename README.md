@@ -40,3 +40,15 @@ What is the largest prime factor of the number $600851475143$?
 Golden Hint: Whatch this video out: [Sieve of Eratosthenes](https://www.youtube.com/watch?v=V08g_lkKj6Q)
 
 "Give it a shot yourself, and if you get stuck, don't worry; here is the [solution](euler_03.js)."
+
+
+## Problem 4
+A palindromic number reads the same both ways. The largest palindrome made from the product of two $2$-digit numbers is  
+$9009 = 91 × 99$
+.
+
+Find the largest palindrome made from the product of two $2$-digit numbers.
+
+"Give it a shot yourself, and if you get stuck, don't worry; here is the [solution](euler_04.js)."
+
+

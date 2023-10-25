@@ -6,6 +6,8 @@ Euler Project in JavaScrtipt. I will solve the Euler problem to improve my skill
 - [Problem 1](#problem-1)
 - [Problem 2](#problem-2)
 - [Problem 3](#problem-3)
+- [Problem 3](#problem-4)
+- [Problem 3](#problem-5)
         </details>
         <details>
             <summary><a href="#10-20-problems">10-20 Problems</a></summary>
@@ -52,3 +54,9 @@ Find the largest palindrome made from the product of two $2$-digit numbers.
 "Give it a shot yourself, and if you get stuck, don't worry; here is the [solution](euler_04.js)."
 
 
+## Problem 5
+$2520$ is the smallest number that can be divided by each of the numbers from $1$ to $10$ without any remainder.
+
+What is the smallest positive number that is evenly divisible by all of the numbers from $1$ to $20$?
+
+"Give it a shot yourself, and if you get stuck, don't worry; here is the [solution](euler_05.js)."

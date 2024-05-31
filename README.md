@@ -1,5 +1,5 @@
 # Euler-Project
-Euler Project in JavaScrtipt. I will solve the Euler problem to improve my skills in programming.
+Euler Project in JavaScrtipt!! I will solve the Euler problem to improve my skills in programming.
         <summary><a href="#getting-started">Getting started</a></summary>
         <details>
             <summary><a href="#0-10-problems">0-10 Problems</a></summary>
